@@ -22,6 +22,7 @@ logIBM <- diff(IBM)-X3mTCM[1:156]/(100*12)
 logMSFT <- diff(MSFT)-X3mTCM[1:156]/(100*12)
 logRCL <- diff(ORCL)-X3mTCM[1:156]/(100*12)
 
+#fit linear regression models to stock on sp500 log returns 
 lmAAPL<-lm(logAAPL~logsp500)
 summary(lmAAPL)
 lmADBE<-lm(logADBE~logsp500)
