@@ -22,6 +22,7 @@ fit3=lm(wage~education+race+health+poly(age,2),data=Wage)
 fit4=lm(wage~education+race+health+poly(age,3),data=Wage)
 anova(fit1,fit2,fit3,fit4)
 ```
+From the ANOVA, we discover that fit3 is the best model given the p-value increase of 2e-16 to 0.033 from fit3 to fit4.
 
 Fitting the GAM Model:
 
