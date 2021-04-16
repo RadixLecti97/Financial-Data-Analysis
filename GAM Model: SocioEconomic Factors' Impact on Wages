@@ -61,9 +61,8 @@ anova(gam1, gam2, gam3, gam4, gam5, gam6, gam7, gam8, test="F")
 
 Conclusion:
 
-As seen from the ANOVA, all the factors are good predictors of logwage except for jobclass and race, which were added on to models 7 and 8, greatly increasing the p-values from 
-10^-16 to 10^-2, close to the alpha levels of 0.05. This is particularly intriguing given the widespread news and social expectations that race and job class have a large effect
-on wage. 
+As seen from the ANOVA, all the factors are good predictors of logwage including jobclass and race, as they all fall below the alpha levels of 0.05 
+One key thing to note is that when jobclass and race  were added on to models 7 and 8, they greatly increase the p-values from 10^-16 to 10^-2.
 
 
 Checking for Issues:
